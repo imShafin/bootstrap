@@ -1,0 +1,80 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.home-bg-image {
+    background-image: linear-gradient(rgba(128, 0, 128, 0.8), rgba(128, 0, 128, 0.8)), 
+                        url('photos/hero-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 90%;
+    position: relative;
+}
+
+.services-bg-image {
+    background-image: linear-gradient(rgba(23, 194, 164, 0.7), rgba(23, 194, 164, 0.7)), 
+                      url('photos/services-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 90%;
+    position: relative;
+}
+
+.team-bg-image {
+    background-image: linear-gradient(rgba(231, 241, 248, 0.9), rgba(231, 241, 248, 0.9)), 
+                        url('photos/team-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 90%;
+    position: relative;
+}
+
+.skill-bg-image {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), 
+                        url('photos/skill-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 90%;
+    position: relative;
+}
+
+.portfolio-bg-image {
+    background-image: linear-gradient(rgba(255, 221, 153, 0.9), rgba(255, 221, 153, 0.9)), 
+                        url('photos/portfolio-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 90%;
+    position: relative;
+}
+
+.testimonial-bg-image {
+    background-image: linear-gradient(rgba(255, 58, 206, 0.6), rgba(255, 58, 206, 0.6)), 
+                        url('photos/testimonial-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 90%;
+    position: relative;
+}
+
+.contact-bg-image {
+    background-image: linear-gradient(rgba(45, 17, 146, 0.8), rgba(45, 17, 146, 0.8)), 
+                        url('photos/contact-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 90%;
+    position: relative;
+}
+
+.logo {
+    filter: grayscale(1) contrast(100) brightness(1);
+    mix-blend-mode: multiply;
+ }
