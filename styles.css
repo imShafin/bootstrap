@@ -50,7 +50,7 @@ body, html {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 90%;
+    height: 130%;
     position: relative;
 }
 
@@ -60,7 +60,7 @@ body, html {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    height: 90%;
+    height: 110%;
     position: relative;
 }
 
@@ -78,3 +78,52 @@ body, html {
     filter: grayscale(1) contrast(100) brightness(1);
     mix-blend-mode: multiply;
  }
+
+ .bg-navy-blue {
+    background-color: #273a71;
+ }
+
+ /* Progress circular bar */
+
+ .progress-circle {
+    position: relative;
+    width: 210px;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-circle svg {
+    transform: rotate(-90deg);
+    width: 190%;
+    height: 190%;
+}
+
+.progress-circle circle {
+    fill: none;
+    stroke-width: 10;
+    stroke-linecap: round;
+}
+
+.bg {
+    stroke: #e0e0e0;
+}
+
+.progress {
+    stroke-dasharray: 283;
+    stroke-dashoffset: 283; 
+    transition: stroke-dashoffset 1s ease-out;
+}
+
+.percentage {
+    position: absolute;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.skill-text {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
